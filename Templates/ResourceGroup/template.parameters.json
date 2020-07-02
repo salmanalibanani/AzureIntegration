@@ -5,11 +5,11 @@
       "rgName":{
         "value": "AzureIntegrationRG"
       },
-
       "rgLocation":{
         "value": "Australia East"
+      },
+      "storateAccountName":{
+        "value": "AzureIntegrationStorage"
       }
-  
-  
     }
-  }
+}
