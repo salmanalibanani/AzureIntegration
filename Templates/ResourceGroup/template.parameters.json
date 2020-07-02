@@ -9,7 +9,7 @@
         "value": "Australia East"
       },
       "storageAccountName":{
-        "value": "AzureIntegrationStorage"
+        "value": "demostorage1234"
       }
     }
 }
