@@ -1,0 +1,45 @@
+{
+  "$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+  "contentVersion": "1.0.0.0",
+  "parameters": {
+      "subscriptionId": {
+          "value": "47df455b-f3c1-4e50-a88d-ff6a59939ec0"
+      },
+      "name": {
+          "value": "PushToQueueApp"
+      },
+      "location": {
+          "value": "Australia East"
+      },
+      "hostingEnvironment": {
+          "value": ""
+      },
+      "hostingPlanName": {
+          "value": "ASP-AzureIntegrationRG-9542"
+      },
+      "serverFarmResourceGroup": {
+          "value": "AzureIntegrationRG"
+      },
+      "alwaysOn": {
+          "value": false
+      },
+      "storageAccountName": {
+          "value": "bananistorage1234"
+      },
+      "sku": {
+          "value": "Dynamic"
+      },
+      "skuCode": {
+          "value": "Y1"
+      },
+      "workerSize": {
+          "value": "0"
+      },
+      "workerSizeId": {
+          "value": "0"
+      },
+      "numberOfWorkers": {
+          "value": "1"
+      }
+  }
+}
