@@ -15,8 +15,6 @@ namespace PushToQueue
         [FunctionName("PushToQueue")]
         public static async Task<IActionResult> Run(
             [HttpTrigger(AuthorizationLevel.Function, "get", "post", Route = null)] HttpRequest req,
-            [ServiceBus("mustreplyqueue", Connection = "ServiceBusConnectionString1")] 
-            IAsyncCollector<dynamic> outputServiceBus1,
             ILogger log)
         {
             log.LogInformation("C# HTTP trigger function processed a request.");
@@ -30,8 +28,6 @@ namespace PushToQueue
             string responseMessage = string.IsNullOrEmpty(name)
                 ? "This HTTP triggered function executed successfully. Pass a name in the query string or in the request body for a personalized response."
                 : $"Hello, {name}. This HTTP triggered function executed successfully.";
-
-            //await outputServiceBus1.AddAsync(name);
 
             return new OkObjectResult(responseMessage);
         }
