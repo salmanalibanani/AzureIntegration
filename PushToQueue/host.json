@@ -1,11 +1,14 @@
 {
-    "version": "2.0",
-    "logging": {
-        "applicationInsights": {
-            "samplingExcludedTypes": "Request",
-            "samplingSettings": {
-                "isEnabled": true
-            }
-        }
+  "version": "2.0",
+  "logging": {
+    "applicationInsights": {
+      "samplingExcludedTypes": "Request",
+      "samplingSettings": {
+        "isEnabled": true
+      }
     }
+  },
+  "Values": {
+    "ServiceBusConnectionString1": "sb://sentimentsnamespace.servicebus.windows.net/;SharedAccessKeyName=RootManageSharedAccessKey;SharedAccessKey=DoeukMT5OOfZmg4PYRIaiJlqRx1xVjqJOZOQF3yTA5s="
+  }
 }
