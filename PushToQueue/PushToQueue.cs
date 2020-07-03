@@ -31,7 +31,7 @@ namespace PushToQueue
                 ? "This HTTP triggered function executed successfully. Pass a name in the query string or in the request body for a personalized response."
                 : $"Hello, {name}. This HTTP triggered function executed successfully.";
 
-            await outputServiceBus1.AddAsync(name);
+            //await outputServiceBus1.AddAsync(name);
 
             return new OkObjectResult(responseMessage);
         }
