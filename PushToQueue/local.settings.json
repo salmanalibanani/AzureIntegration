@@ -3,6 +3,7 @@
     "Values": {
         "AzureWebJobsStorage": "UseDevelopmentStorage=true",
         "FUNCTIONS_WORKER_RUNTIME": "dotnet",
-        "ServiceBusConnectionString1": "sb://sentimentsnamespace.servicebus.windows.net/;SharedAccessKeyName=RootManageSharedAccessKey;SharedAccessKey=DoeukMT5OOfZmg4PYRIaiJlqRx1xVjqJOZOQF3yTA5s="
+        "ServiceBusConnectionString": "Endpoint=sb://sentimentsnamespace.servicebus.windows.net/;SharedAccessKeyName=RootManageSharedAccessKey;SharedAccessKey=DoeukMT5OOfZmg4PYRIaiJlqRx1xVjqJOZOQF3yTA5s=",
+        "QueueName": "mustreplyqueue"
     }
 }
