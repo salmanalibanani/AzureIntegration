@@ -9,6 +9,6 @@
     }
   },
   "Values": {
-    "ServiceBusConnectionString1": "Endpoint=sb://sentimentsnamespace.servicebus.windows.net/;SharedAccessKeyName=RootManageSharedAccessKey;SharedAccessKey=DoeukMT5OOfZmg4PYRIaiJlqRx1xVjqJOZOQF3yTA5s="
+    "ServiceBusConnectionString1": ""
   }
 }
